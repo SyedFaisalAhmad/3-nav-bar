@@ -7,7 +7,7 @@
   padding: 0;
   background-color: #ffffff;
 }
- ul,
+ul,
 li,
 a {
   font-size: 16px;
@@ -17,20 +17,18 @@ a {
 }
 header {
   display: flex;
-  justify-content: space-between;
-  align-self: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 30px 10%;
+  /* padding: 30px 10%; */
 }
 .logo {
   cursor: pointer;
-  margin-right: auto;
 }
 nav ul {
   list-style: none;
 }
 nav li {
-  padding: 0px 20px;
+  padding: 9px 25px;
   display: inline-block;
 }
 nav li a {
@@ -46,5 +44,5 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 50px;
-   transition: all 0.5s ease none; 
+  transition: all 0.5s ease none;
 }
